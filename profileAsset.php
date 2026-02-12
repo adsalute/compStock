@@ -17,7 +17,7 @@
   class="light-style layout-menu-fixed"
   dir="ltr"
   data-theme="theme-default"
-  data-assets-path="assets//"
+  data-assets-path="assets/"
   data-template="vertical-menu-template-free"
 >
   <head>
@@ -27,12 +27,12 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Text Divider - Extended UI | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>Cards basic - UI elements | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
 
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets//img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,24 +43,24 @@
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="assets//vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="assets//vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="assets//vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="assets//css/demo.css" />
+    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="assets//vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="assets//vendor/js/helpers.js"></script>
+    <script src="assets/vendor/js/helpers.js"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="assets//js/config.js"></script>
+    <script src="assets/js/config.js"></script>
   </head>
 
   <body>
@@ -252,7 +252,7 @@
             <!-- Components -->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
             <!-- Cards -->
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="cards-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div data-i18n="Basic">Cards</div>
@@ -364,7 +364,7 @@
             </li>
 
             <!-- Extended components -->
-            <li class="menu-item active open">
+            <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Extended UI</div>
@@ -375,7 +375,7 @@
                     <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
                   </a>
                 </li>
-                <li class="menu-item active">
+                <li class="menu-item">
                   <a href="extended-ui-text-divider.html" class="menu-link">
                     <div data-i18n="Text Divider">Text Divider</div>
                   </a>
@@ -509,7 +509,7 @@
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                      <img src="assets//img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                      <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -518,7 +518,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="assets//img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -575,130 +575,124 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Extended UI /</span> Text Divider</h4>
-
-              <div class="row">
-                <!-- Basic -->
-                <div class="col-md-12 mb-4">
-                  <div class="card">
-                    <h5 class="card-header">Basic</h5>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI Elements /</span> Cards Basic</h4>
+<div class="row">
+             <div class="col-xl-6">
+                  <div class="card h-80">
                     <div class="card-body">
-                      <div class="divider">
-                        <div class="divider-text">Text</div>
-                      </div>
+                      <h5 class="card-title">รายละเอียดครุภัณฑ์</h5>
+                      <img
+                        class="img-fluid d-flex mx-auto my-4"
+                        src="assets/img/assets/pc/a1.jpeg"
+                        alt="Card image cap"
+                      />
                     </div>
                   </div>
                 </div>
-                <!-- /Basic -->
-
-                <!-- Text Alignment -->
-                <div class="col-md-12 mb-4">
-                  <div class="card">
-                    <h5 class="card-header">Alignment</h5>
-                    <div class="card-body">
-                      <div class="divider text-start">
-                        <div class="divider-text">Start</div>
-                      </div>
-                      <div class="divider text-start-center">
-                        <div class="divider-text">Start-Center</div>
-                      </div>
-                      <div class="divider">
-                        <div class="divider-text">Center (Default)</div>
-                      </div>
-                      <div class="divider text-end-center">
-                        <div class="divider-text">End-Center</div>
-                      </div>
-                      <div class="divider text-end">
-                        <div class="divider-text">End</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Text Alignment -->
-
-                <!-- Divider Colors -->
-                <div class="col-md-12 mb-4">
-                  <div class="card">
-                    <h5 class="card-header">Colors</h5>
-                    <div class="card-body">
-                      <div class="divider divider-primary">
-                        <div class="divider-text">Primary</div>
-                      </div>
-                      <div class="divider divider-success">
-                        <div class="divider-text">Success</div>
-                      </div>
-                      <div class="divider divider-danger">
-                        <div class="divider-text">Danger</div>
-                      </div>
-                      <div class="divider divider-warning">
-                        <div class="divider-text">Warning</div>
-                      </div>
-                      <div class="divider divider-info">
-                        <div class="divider-text">Info</div>
-                      </div>
-                      <div class="divider divider-dark">
-                        <div class="divider-text">Dark</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Divider Colors -->
-
-                <!-- Icons -->
-                <div class="col-md-12 mb-4">
-                  <div class="card">
-                    <h5 class="card-header">Icons</h5>
-                    <div class="card-body">
-                      <div class="divider text-start">
-                        <div class="divider-text">
-                          <i class="bx bx-sun"></i>
-                        </div>
-                      </div>
-                      <div class="divider text-start-center">
-                        <div class="divider-text">
-                          <i class="bx bx-crown"></i>
-                        </div>
-                      </div>
-                      <div class="divider">
-                        <div class="divider-text">
-                          <i class="bx bx-star"></i>
-                        </div>
-                      </div>
-                      <div class="divider text-end-center">
-                        <div class="divider-text">
-                          <i class="bx bx-coffee-togo"></i>
-                        </div>
-                      </div>
-                      <div class="divider text-end">
-                        <div class="divider-text">
-                          <i class="bx bx-cut bx-rotate-180"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Icons -->
-
-                <!-- Icons -->
-                <div class="col-md-12">
-                  <div class="card">
-                    <h5 class="card-header">Styles</h5>
-                    <div class="card-body">
-                      <div class="divider">
-                        <div class="divider-text">Solid (Default)</div>
-                      </div>
-                      <div class="divider divider-dotted">
-                        <div class="divider-text">Dotted</div>
-                      </div>
-                      <div class="divider divider-dashed">
-                        <div class="divider-text">Dashed</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Icons -->
+                
+</div>
               </div>
+              <!-- Examples -->
+
+        <!--/ Card layout -->
             </div>
+<div class="row">
+             <div class="col-xl-6">
+                
+                  <div class="nav-align-top mb-4">
+                    <ul class="nav nav-pills mb-3 nav-fill" role="tablist">
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link active"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-justified-home"
+                          aria-controls="navs-pills-justified-home"
+                          aria-selected="true"
+                        >
+                          <!-- <i class="tf-icons bx bx-home"></i>--> Hardware Spec 
+                          <!-- <span class="badge rounded-pill badge-center h-px-20 w-px-20 bg-danger">3</span> -->
+                        </button>
+                      </li>
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-justified-profile"
+                          aria-controls="navs-pills-justified-profile"
+                          aria-selected="false"
+                        >
+                          <!-- <i class="tf-icons bx bx-user"></i> --> Sofeware
+                        </button>
+                      </li>
+                      <li class="nav-item">
+                        <button
+                          type="button"
+                          class="nav-link"
+                          role="tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#navs-pills-justified-messages"
+                          aria-controls="navs-pills-justified-messages"
+                          aria-selected="false"
+                        >
+                          <!-- <i class="tf-icons bx bx-message-square"></i>--> Repair History 
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="navs-pills-justified-home" role="tabpanel">
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-secondary">MAINBROAD :</span> ACER
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-secondary">CPU :</span> Intel Core I 5
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-secondary">HDD :</span> SSD 256 GB
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-secondary">RAM :</span> 16 GB
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-secondary">DISPLAY SCREEN :</span> 24 LED WIDE SCREEN
+                      </div>
+                      <div class="tab-pane fade" id="navs-pills-justified-profile" role="tabpanel">
+                         <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-primary">WINDOWS :</span> WINDOWS 11 PRO 
+                        <hr class="m-1" />
+                         <BR>
+                        <span class="badge rounded-pill bg-label-primary">HIS :</span> SSB 
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-primary">UTILITY :</span> MS OFFICE 2013, 7ZIP, 
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-primary">SCAN VIRUS :</span> SSD 256 GB
+                        <hr class="m-1" />
+                        <BR>
+                        <!-- <span class="badge rounded-pill bg-label-secondary">RAM :</span> 16 GB
+                        <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-secondary">DISPLAY SCREEN :</span> 24 LED WIDE SCREEN -->
+                      </div>
+                      <div class="tab-pane fade" id="navs-pills-justified-messages" role="tabpanel">
+                         <hr class="m-1" />
+                        <BR>
+                        <span class="badge rounded-pill bg-label-info">01/01/2026</span> RE INSTALL WINDOWS 11 PRO 
+                        <hr class="m-1" />
+                         <BR>
+                        <span class="badge rounded-pill bg-label-info">10/10/2026</span> CHARGE POWER SULPLY 
+                        <hr class="m-1" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+</div>
             <!-- / Content -->
 
             <!-- Footer -->
@@ -746,29 +740,22 @@
     </div>
     <!-- / Layout wrapper -->
 
-    <div class="buy-now">
-      <a
-        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-        target="_blank"
-        class="btn btn-danger btn-buy-now"
-        >Upgrade to Pro</a
-      >
-    </div>
-
+    
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="assets//vendor/libs/jquery/jquery.js"></script>
-    <script src="assets//vendor/libs/popper/popper.js"></script>
-    <script src="assets//vendor/js/bootstrap.js"></script>
-    <script src="assets//vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-    <script src="assets//vendor/js/menu.js"></script>
+    <script src="assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
+    <script src="assets/vendor/libs/masonry/masonry.js"></script>
 
     <!-- Main JS -->
-    <script src="assets//js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- Page JS -->
 
