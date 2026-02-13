@@ -15214,7 +15214,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
 .layout-container {
   width: 100%;
   display: flex;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   align-items: stretch;
 }
 
