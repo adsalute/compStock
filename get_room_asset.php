@@ -1,5 +1,5 @@
 <?php
-include ("middleware/db.php");
+include "middleware/db.php";
 $room = $_GET['room'];
 
 $stmt = $conn->prepare("

@@ -1,4 +1,4 @@
-<?php $conn = new mysqli("localhost","root","","asset_db"); ?>
+<?php include "middleware/db.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
