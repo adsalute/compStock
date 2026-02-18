@@ -1,16 +1,5 @@
 <!DOCTYPE html>
 
-<!-- =========================================================
-* Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
-==============================================================
-
-* Product Page: https://themeselection.com/products/sneat-bootstrap-html-admin-template/
-* Created by: ThemeSelection
-* License: You must have a valid license purchased in order to legally use the theme for your project.
-* Copyright ThemeSelection (https://themeselection.com)
-
-=========================================================
- -->
 <!-- beautify ignore:start -->
 <html
   lang="en"
@@ -27,7 +16,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Login Basic - Pages | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>sign-in</title>
 
     <meta name="description" content="" />
 
@@ -82,18 +71,18 @@
                 </a>
               </div>
               <!-- /Logo -->
-              <h4 class="mb-2">Welcome to Sneat! 👋</h4>
+              <h4 class="mb-2">Welcome to IT Service Stock! 👋</h4>
               <p class="mb-4">Please sign-in to your account</p>
 
-              <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
+              <form id="formAuthentication" class="mb-3" action="middleware/auth.php" method="POST">
                 <div class="mb-3">
                   <label for="email" class="form-label">Username</label>
                   <input
                     type="text"
                     class="form-control"
                     id="email"
-                    name="email-username"
-                    placeholder="Enter your email or username"
+                    name="username"
+                    placeholder="Enter your username"
                     autofocus
                   />
                 </div>
