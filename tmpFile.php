@@ -28,6 +28,8 @@
                 <?php require_once "component/laysout/navbar.php"; ?>
             </div>
             <!-- / Layout page -->
+
+            
         </div>
         <!-- Overlay -->
         <div class="layout-overlay layout-menu-toggle"></div>
